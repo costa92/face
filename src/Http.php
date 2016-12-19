@@ -13,11 +13,15 @@ use Illuminate\Support\Facades\Config;
 class Http
 {
 
-    public $server          = 'https://api.megvii.com/facepp/v3/';
+
+    private $server          = 'https://api.megvii.com/facepp/v3/';
 
     public $api_key         = '';        // set your API KEY or set the key static in the property
 
-    public $api_secret      = '';        // set your API SECRET or set the secret static in the property
+    private $api_secret      = '';        // set your API SECRET or set the secret static in the property
+
+    private $useragent      = 'Faceplusplus PHP SDK/1.1';
+
 
     public function __construct()
     {
