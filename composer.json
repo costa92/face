@@ -1,0 +1,20 @@
+{
+    "name": "costa92/face",
+    "description": "face++ 人脸识别功能",
+    "type": "package",
+    "keywords": ["laravel", "face++", "face"],
+    "homepage": "https://github.com/costa92/face",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "costa92",
+            "email": "costa9293@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Costa92\\Face\\": "src/"
+        }
+    },
+    "require": {}
+}
