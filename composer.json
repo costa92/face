@@ -2,7 +2,7 @@
     "name": "costa92/face",
     "description": "face++ 人脸识别功能",
     "type": "package",
-    "keywords": ["laravel", "face++", "face"],
+    "keywords": ["laravel","face"],
     "homepage": "https://github.com/costa92/face",
     "license": "MIT",
     "authors": [
